@@ -20,6 +20,40 @@
 <meta property="og:image:height" content="960">
 <meta property="og:image:alt" content="La pileta de El Arbolito en Pehuén-Có">
 <meta name="twitter:card" content="summary_large_image">
+
+<!-- Ficha para Google: le dice que esto es un alojamiento, no una web cualquiera.
+     Sin esto Google adivina. Con esto puede mostrar la ficha enriquecida. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LodgingBusiness",
+  "name": "El Arbolito",
+  "description": "Cuatro alojamientos en Pehuén-Có: monoambientes y departamentos con pileta a 35 metros de la playa, y dos casas frente al mar con kayak y parrilla. Se aceptan mascotas.",
+  "url": "https://pehuencoalquileres.com/",
+  "image": "https://pehuencoalquileres.com/fotos/mono-03.jpg",
+  "telephone": "+5492923415009",
+  "priceRange": "$$",
+  "petsAllowed": true,
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Pehuén-Có",
+    "addressRegion": "Buenos Aires",
+    "addressCountry": "AR"
+  },
+  "amenityFeature": [
+    { "@type": "LocationFeatureSpecification", "name": "Pileta", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Parrilla", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Kayak", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Se aceptan mascotas", "value": true }
+  ],
+  "containsPlace": [
+    { "@type": "Accommodation", "name": "Monoambiente", "occupancy": { "@type": "QuantitativeValue", "maxValue": 2 } },
+    { "@type": "Accommodation", "name": "Departamento de un dormitorio", "numberOfBedrooms": 1 },
+    { "@type": "Accommodation", "name": "Casa de dos dormitorios", "numberOfBedrooms": 2 },
+    { "@type": "Accommodation", "name": "Casa de tres dormitorios", "numberOfBedrooms": 3 }
+  ]
+}
+</script>
 <meta name="theme-color" content="#A0602F">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
