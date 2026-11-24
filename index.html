@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es-AR">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>El Arbolito · Alojamientos en Pehuén-Có</title>
-<meta name="description" content="Cuatro alojamientos en Pehuén-Có: monoambientes y departamentos con pileta a 35 metros de la playa, y dos casas frente al mar con kayak y parrilla. Se aceptan mascotas.">
+<title>El Arbolito · Alojamientos en Pehuén-Có a 35 m de la playa</title>
+<meta name="description" content="Monoambientes y departamentos con pileta a 35 metros de la playa y dos casas frente al mar con kayak, en Pehuén-Có. De 2 a 8 personas. Se aceptan mascotas.">
+<meta name="robots" content="index, follow, max-image-preview:large">
 
 <!-- Vista previa al compartir el link en WhatsApp y Facebook. Sin esto el
      link sale como texto pelado y casi nadie lo toca. -->
@@ -13,44 +14,276 @@
 <meta property="og:site_name" content="El Arbolito">
 <meta property="og:locale" content="es_AR">
 <meta property="og:url" content="https://pehuencoalquileres.com/">
-<meta property="og:title" content="El Arbolito · Alojamientos en Pehuén-Có">
+<meta property="og:title" content="El Arbolito · Alojamientos en Pehuén-Có a 35 m de la playa">
 <meta property="og:description" content="Cuatro alojamientos a 35 metros de la playa, con pileta, parrilla y kayak. Se aceptan mascotas.">
 <meta property="og:image" content="https://pehuencoalquileres.com/fotos/playa-01.jpg">
-<meta property="og:image:width" content="1280">
-<meta property="og:image:height" content="960">
-<meta property="og:image:alt" content="La pileta de El Arbolito en Pehuén-Có">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="860">
+<meta property="og:image:alt" content="La playa de Pehuén-Có, a 35 metros de El Arbolito">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="El Arbolito · Alojamientos en Pehuén-Có a 35 m de la playa">
+<meta name="twitter:description" content="Cuatro alojamientos a 35 metros de la playa, con pileta, parrilla y kayak. Se aceptan mascotas.">
+<meta name="twitter:image" content="https://pehuencoalquileres.com/fotos/playa-01.jpg">
+<meta name="twitter:image:alt" content="La playa de Pehuén-Có, a 35 metros de El Arbolito">
 
 <!-- Ficha para Google: le dice que esto es un alojamiento, no una web cualquiera.
      Sin esto Google adivina. Con esto puede mostrar la ficha enriquecida. -->
+<!-- Todo lo que dice este bloque sale de la página: capacidades, direcciones y
+     servicios de las fichas. Sin precio (la web no los publica), sin coordenadas
+     y sin sameAs (la web no enlaza perfiles). Las preguntas del FAQPage tienen
+     que coincidir palabra por palabra con la sección #preguntas. -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "LodgingBusiness",
-  "name": "El Arbolito",
-  "description": "Cuatro alojamientos en Pehuén-Có: monoambientes y departamentos con pileta a 35 metros de la playa, y dos casas frente al mar con kayak y parrilla. Se aceptan mascotas.",
-  "url": "https://pehuencoalquileres.com/",
-  "image": "https://pehuencoalquileres.com/fotos/playa-01.jpg",
-  "telephone": "+5492923415009",
-  "priceRange": "$$",
-  "petsAllowed": true,
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Pehuén-Có",
-    "addressRegion": "Buenos Aires",
-    "addressCountry": "AR"
-  },
-  "amenityFeature": [
-    { "@type": "LocationFeatureSpecification", "name": "Pileta", "value": true },
-    { "@type": "LocationFeatureSpecification", "name": "Parrilla", "value": true },
-    { "@type": "LocationFeatureSpecification", "name": "Kayak", "value": true },
-    { "@type": "LocationFeatureSpecification", "name": "Se aceptan mascotas", "value": true }
-  ],
-  "containsPlace": [
-    { "@type": "Accommodation", "name": "Monoambiente", "occupancy": { "@type": "QuantitativeValue", "maxValue": 2 } },
-    { "@type": "Accommodation", "name": "Departamento de un dormitorio", "numberOfBedrooms": 1 },
-    { "@type": "Accommodation", "name": "Casa de dos dormitorios", "numberOfBedrooms": 2 },
-    { "@type": "Accommodation", "name": "Casa de tres dormitorios", "numberOfBedrooms": 3 }
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://pehuencoalquileres.com/#sitio",
+      "url": "https://pehuencoalquileres.com/",
+      "name": "El Arbolito",
+      "inLanguage": "es-AR",
+      "publisher": { "@id": "https://pehuencoalquileres.com/#negocio" }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://pehuencoalquileres.com/#pagina",
+      "url": "https://pehuencoalquileres.com/",
+      "name": "El Arbolito · Alojamientos en Pehuén-Có a 35 m de la playa",
+      "description": "Monoambientes y departamentos con pileta a 35 metros de la playa y dos casas frente al mar con kayak, en Pehuén-Có. De 2 a 8 personas. Se aceptan mascotas.",
+      "inLanguage": "es-AR",
+      "isPartOf": { "@id": "https://pehuencoalquileres.com/#sitio" },
+      "about": { "@id": "https://pehuencoalquileres.com/#negocio" },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://pehuencoalquileres.com/fotos/playa-01.jpg",
+        "width": 1200,
+        "height": 860,
+        "caption": "La playa de Pehuén-Có, a 35 metros de El Arbolito"
+      },
+      "dateModified": "2026-11-24"
+    },
+    {
+      "@type": "LodgingBusiness",
+      "@id": "https://pehuencoalquileres.com/#negocio",
+      "name": "El Arbolito",
+      "description": "Cuatro alojamientos en Pehuén-Có: monoambientes y departamentos con pileta a 35 metros de la playa, y dos casas frente al mar con kayak y parrilla. Se aceptan mascotas.",
+      "url": "https://pehuencoalquileres.com/",
+      "image": [
+        "https://pehuencoalquileres.com/fotos/playa-01.jpg",
+        "https://pehuencoalquileres.com/fotos/mono-01.jpg",
+        "https://pehuencoalquileres.com/fotos/casa2-02.jpg",
+        "https://pehuencoalquileres.com/fotos/casa3-01.jpg"
+      ],
+      "telephone": "+5492923415009",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "reservations",
+        "telephone": "+5492923415009",
+        "url": "https://wa.me/5492923415009"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Martínez Serra casi esquina Costanera",
+        "addressLocality": "Pehuén-Có",
+        "addressRegion": "Buenos Aires",
+        "addressCountry": "AR"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Pehuén-Có",
+        "containedInPlace": {
+          "@type": "AdministrativeArea",
+          "name": "Coronel Rosales, provincia de Buenos Aires, Argentina"
+        }
+      },
+      "petsAllowed": true,
+      "amenityFeature": [
+        { "@type": "LocationFeatureSpecification", "name": "Pileta compartida", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Parrilla", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "WiFi", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Se aceptan mascotas", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Kayak", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Estacionamiento", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Ropa de cama y toallas incluidas", "value": false }
+      ],
+      "containsPlace": [
+        {
+          "@type": "Accommodation",
+          "@id": "https://pehuencoalquileres.com/#monoambiente",
+          "name": "Monoambiente",
+          "description": "En el complejo, planta alta, a 35 metros de la playa. Pileta, terraza con parrilla, cocina y heladera, TV y WiFi, media sombra para el auto. Hay 2 iguales.",
+          "image": "https://pehuencoalquileres.com/fotos/mono-04.jpg",
+          "floorLevel": "Planta alta",
+          "occupancy": { "@type": "QuantitativeValue", "maxValue": 3, "description": "2 adultos y 1 menor" },
+          "address": { "@type": "PostalAddress", "streetAddress": "Martínez Serra casi esquina Costanera", "addressLocality": "Pehuén-Có", "addressRegion": "Buenos Aires", "addressCountry": "AR" },
+          "amenityFeature": [
+            { "@type": "LocationFeatureSpecification", "name": "Pileta", "value": true },
+            { "@type": "LocationFeatureSpecification", "name": "Terraza con parrilla", "value": true },
+            { "@type": "LocationFeatureSpecification", "name": "Cocina y heladera", "value": true },
+            { "@type": "LocationFeatureSpecification", "name": "TV y WiFi", "value": true },
+            { "@type": "LocationFeatureSpecification", "name": "Media sombra para el auto", "value": true }
+          ]
+        },
+        {
+          "@type": "Accommodation",
+          "@id": "https://pehuencoalquileres.com/#departamento",
+          "name": "Departamento de un dormitorio",
+          "description": "En el complejo, planta baja, a 35 metros de la playa. Pileta, parrilla en el patio, heladera con freezer, TV y WiFi, media sombra para el auto. Hay 2 iguales.",
+          "image": "https://pehuencoalquileres.com/fotos/depto-01.jpg",
+          "floorLevel": "Planta baja",
+          "numberOfBedrooms": 1,
+          "occupancy": { "@type": "QuantitativeValue", "maxValue": 4 },
+          "address": { "@type": "PostalAddress", "streetAddress": "Martínez Serra casi esquina Costanera", "addressLocality": "Pehuén-Có", "addressRegion": "Buenos Aires", "addressCountry": "AR" },
+          "amenityFeature": [
+            { "@type": "LocationFeatureSpecification", "name": "Pileta", "value": true },
+            { "@type": "LocationFeatureSpecification", "name": "Parrilla en el patio", "value": true },
+            { "@type": "LocationFeatureSpecification", "name": "Heladera con freezer", "value": true },
+            { "@type": "LocationFeatureSpecification", "name": "TV y WiFi", "value": true },
+            { "@type": "LocationFeatureSpecification", "name": "Media sombra para el auto", "value": true }
+          ]
+        },
+        {
+          "@type": "Accommodation",
+          "@id": "https://pehuencoalquileres.com/#casa-dos-dormitorios",
+          "name": "Casa de dos dormitorios",
+          "description": "Frente al mar. Kayak, parrilla y alero, microondas y freezer, pérgola para el auto y acceso a la pileta.",
+          "image": "https://pehuencoalquileres.com/fotos/casa2-02.jpg",
+          "numberOfBedrooms": 2,
+          "occupancy": { "@type": "QuantitativeValue", "maxValue": 5 },
+          "address": { "@type": "PostalAddress", "streetAddress": "Avda. González Martínez (Este) 898", "addressLocality": "Pehuén-Có", "addressRegion": "Buenos Aires", "addressCountry": "AR" },
+          "amenityFeature": [
+            { "@type": "LocationFeatureSpecification", "name": "Frente al mar", "value": true },
+            { "@type": "LocationFeatureSpecification", "name": "Kayak", "value": true },
+            { "@type": "LocationFeatureSpecification", "name": "Parrilla y alero", "value": true },
+            { "@type": "LocationFeatureSpecification", "name": "Microondas y freezer", "value": true },
+            { "@type": "LocationFeatureSpecification", "name": "Pérgola para el auto", "value": true },
+            { "@type": "LocationFeatureSpecification", "name": "Acceso a la pileta", "value": true }
+          ]
+        },
+        {
+          "@type": "Accommodation",
+          "@id": "https://pehuencoalquileres.com/#casa-tres-dormitorios",
+          "name": "Casa de tres dormitorios",
+          "description": "Frente al mar. Kayak, estufa a leña, parrilla, alero y terraza, microondas y freezer y acceso a la pileta.",
+          "image": "https://pehuencoalquileres.com/fotos/casa3-01.jpg",
+          "numberOfBedrooms": 3,
+          "occupancy": { "@type": "QuantitativeValue", "maxValue": 8 },
+          "address": { "@type": "PostalAddress", "streetAddress": "Avda. González Martínez (Este) esq. Martínez Serra", "addressLocality": "Pehuén-Có", "addressRegion": "Buenos Aires", "addressCountry": "AR" },
+          "amenityFeature": [
+            { "@type": "LocationFeatureSpecification", "name": "Frente al mar", "value": true },
+            { "@type": "LocationFeatureSpecification", "name": "Kayak", "value": true },
+            { "@type": "LocationFeatureSpecification", "name": "Estufa a leña", "value": true },
+            { "@type": "LocationFeatureSpecification", "name": "Parrilla, alero y terraza", "value": true },
+            { "@type": "LocationFeatureSpecification", "name": "Microondas y freezer", "value": true },
+            { "@type": "LocationFeatureSpecification", "name": "Acceso a la pileta", "value": true }
+          ]
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Alojamientos",
+        "url": "https://pehuencoalquileres.com/#alojamientos",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "availableAtOrFrom": { "@id": "https://pehuencoalquileres.com/#monoambiente" },
+            "itemOffered": {
+              "@type": "Service",
+              "@id": "https://pehuencoalquileres.com/#servicio-monoambiente",
+              "name": "Monoambiente",
+              "serviceType": "Alojamiento",
+              "description": "Monoambiente para 3 personas (2 adultos y 1 menor) en el complejo, a 35 metros de la playa, con pileta y terraza con parrilla.",
+              "provider": { "@id": "https://pehuencoalquileres.com/#negocio" },
+              "areaServed": { "@type": "City", "name": "Pehuén-Có" },
+              "url": "https://pehuencoalquileres.com/#alojamientos"
+            }
+          },
+          {
+            "@type": "Offer",
+            "availableAtOrFrom": { "@id": "https://pehuencoalquileres.com/#departamento" },
+            "itemOffered": {
+              "@type": "Service",
+              "@id": "https://pehuencoalquileres.com/#servicio-departamento",
+              "name": "Departamento de un dormitorio",
+              "serviceType": "Alojamiento",
+              "description": "Departamento de un dormitorio para 4 personas en el complejo, a 35 metros de la playa, con pileta y parrilla en el patio.",
+              "provider": { "@id": "https://pehuencoalquileres.com/#negocio" },
+              "areaServed": { "@type": "City", "name": "Pehuén-Có" },
+              "url": "https://pehuencoalquileres.com/#alojamientos"
+            }
+          },
+          {
+            "@type": "Offer",
+            "availableAtOrFrom": { "@id": "https://pehuencoalquileres.com/#casa-dos-dormitorios" },
+            "itemOffered": {
+              "@type": "Service",
+              "@id": "https://pehuencoalquileres.com/#servicio-casa-dos-dormitorios",
+              "name": "Casa de dos dormitorios",
+              "serviceType": "Alojamiento",
+              "description": "Casa de dos dormitorios para 5 personas frente al mar, con kayak, parrilla y acceso a la pileta.",
+              "provider": { "@id": "https://pehuencoalquileres.com/#negocio" },
+              "areaServed": { "@type": "City", "name": "Pehuén-Có" },
+              "url": "https://pehuencoalquileres.com/#alojamientos"
+            }
+          },
+          {
+            "@type": "Offer",
+            "availableAtOrFrom": { "@id": "https://pehuencoalquileres.com/#casa-tres-dormitorios" },
+            "itemOffered": {
+              "@type": "Service",
+              "@id": "https://pehuencoalquileres.com/#servicio-casa-tres-dormitorios",
+              "name": "Casa de tres dormitorios",
+              "serviceType": "Alojamiento",
+              "description": "Casa de tres dormitorios para 8 personas frente al mar, con kayak, estufa a leña, parrilla y acceso a la pileta.",
+              "provider": { "@id": "https://pehuencoalquileres.com/#negocio" },
+              "areaServed": { "@type": "City", "name": "Pehuén-Có" },
+              "url": "https://pehuencoalquileres.com/#alojamientos"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://pehuencoalquileres.com/#preguntas",
+      "url": "https://pehuencoalquileres.com/#preguntas",
+      "inLanguage": "es-AR",
+      "isPartOf": { "@id": "https://pehuencoalquileres.com/#sitio" },
+      "about": { "@id": "https://pehuencoalquileres.com/#negocio" },
+      "dateModified": "2026-11-24",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Dónde queda El Arbolito?",
+          "acceptedAnswer": { "@type": "Answer", "text": "En Pehuén-Có, Coronel Rosales, provincia de Buenos Aires, a 81 km de Bahía Blanca y 68 de Punta Alta. Los monoambientes y departamentos están en el complejo de Martínez Serra casi esquina Costanera, a 35 metros de la playa. Las dos casas están frente al mar, sobre la Avda. González Martínez (Este)." }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Para cuántas personas son?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Hay cuatro opciones, de dos a ocho personas: el monoambiente es para 3 (2 adultos y 1 menor), el departamento de un dormitorio para 4, la casa de dos dormitorios para 5 y la casa de tres dormitorios para 8." }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué servicios tiene?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Pileta compartida, parrilla, WiFi, kayak y estacionamiento. Las dos casas frente al mar tienen kayak y acceso a la pileta." }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Hay que llevar ropa de cama y toallas?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Sí. La ropa de cama y las toallas no están incluidas en ninguno de los cuatro alojamientos. El resto del equipamiento sí." }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Se aceptan mascotas?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Sí. Avisanos al consultar y te ubicamos en el alojamiento que mejor le venga." }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo se reserva y cuánto sale?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Por WhatsApp, al 2923 41-5009. Escribinos con las fechas y cuántos son, y te decimos qué hay disponible y cuánto sale. Contestamos nosotros." }
+        }
+      ]
+    }
   ]
 }
 </script>
@@ -269,6 +502,23 @@ h2{font-size:clamp(1.9rem,4vw,2.9rem);margin-bottom:.6rem}
   font-style:italic;line-height:1.35;flex:1;min-width:260px}
 .opinion cite{display:block;font-family:var(--ui);font-style:normal;font-size:.83rem;
   color:var(--tinta-3);margin-top:.6rem}
+
+/* ---------- preguntas frecuentes ---------- */
+/* Mismo lenguaje que los puntos de «El lugar»: pregunta en Karla negrita,
+   respuesta liviana, separadas por la línea de madera. El texto tiene que ser
+   idéntico al del FAQPage del <head>. */
+.preguntas{border-bottom:1px solid var(--linea)}
+.faq{display:grid;grid-template-columns:1fr 1fr;gap:0 56px;margin-top:2.2rem}
+@media (max-width:860px){.faq{grid-template-columns:1fr}}
+.faq-item{padding:18px 0;border-top:1px solid var(--linea)}
+.faq-item h3{font-family:var(--ui);font-size:1rem;font-weight:700;line-height:1.3;
+  letter-spacing:0;margin-bottom:.3rem}
+.faq-item p{font-size:.93rem;color:var(--tinta-2);font-weight:300}
+
+/* números que ya estaban a la vista, ahora tocables, sin cambiar el aspecto */
+.tel{text-decoration:underline;text-decoration-color:var(--linea);
+  text-underline-offset:3px;transition:text-decoration-color .2s}
+.tel:hover{text-decoration-color:currentColor}
 
 /* ---------- contacto ---------- */
 .contacto .env{display:grid;grid-template-columns:1fr .8fr;gap:56px;align-items:start}
@@ -559,6 +809,39 @@ footer .env{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
   </div>
 </section>
 
+<section class="preguntas" id="preguntas">
+  <div class="env">
+    <p class="rot ap">Dudas</p>
+    <h2 class="ap">Preguntas frecuentes</h2>
+    <div class="faq">
+      <div class="faq-item ap">
+        <h3>¿Dónde queda El Arbolito?</h3>
+        <p>En Pehuén-Có, Coronel Rosales, provincia de Buenos Aires, a 81 km de Bahía Blanca y 68 de Punta Alta. Los monoambientes y departamentos están en el complejo de Martínez Serra casi esquina Costanera, a 35 metros de la playa. Las dos casas están frente al mar, sobre la Avda. González Martínez (Este).</p>
+      </div>
+      <div class="faq-item ap">
+        <h3>¿Para cuántas personas son?</h3>
+        <p>Hay cuatro opciones, de dos a ocho personas: el monoambiente es para 3 (2 adultos y 1 menor), el departamento de un dormitorio para 4, la casa de dos dormitorios para 5 y la casa de tres dormitorios para 8.</p>
+      </div>
+      <div class="faq-item ap">
+        <h3>¿Qué servicios tiene?</h3>
+        <p>Pileta compartida, parrilla, WiFi, kayak y estacionamiento. Las dos casas frente al mar tienen kayak y acceso a la pileta.</p>
+      </div>
+      <div class="faq-item ap">
+        <h3>¿Hay que llevar ropa de cama y toallas?</h3>
+        <p>Sí. La ropa de cama y las toallas no están incluidas en ninguno de los cuatro alojamientos. El resto del equipamiento sí.</p>
+      </div>
+      <div class="faq-item ap">
+        <h3>¿Se aceptan mascotas?</h3>
+        <p>Sí. Avisanos al consultar y te ubicamos en el alojamiento que mejor le venga.</p>
+      </div>
+      <div class="faq-item ap">
+        <h3>¿Cómo se reserva y cuánto sale?</h3>
+        <p>Por WhatsApp, al <a class="tel" href="https://wa.me/5492923415009" target="_blank" rel="noopener">2923 41-5009</a>. Escribinos con las fechas y cuántos son, y te decimos qué hay disponible y cuánto sale. Contestamos nosotros.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="contacto" id="contacto">
   <div class="env">
     <div>
@@ -576,7 +859,7 @@ footer .env{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
       <div><span class="k">Casas</span><span>Avda. González Martínez (Este) 898 y esquina</span></div>
       <div><span class="k">Localidad</span><span>Pehuén-Có, Coronel Rosales</span></div>
       <div><span class="k">Bahía Blanca</span><span>81 km</span></div>
-      <div><span class="k">WhatsApp</span><span>2923 41-5009</span></div>
+      <div><span class="k">WhatsApp</span><span><a class="tel" href="https://wa.me/5492923415009" target="_blank" rel="noopener">2923 41-5009</a></span></div>
     </div>
   </div>
 </section>
@@ -584,7 +867,7 @@ footer .env{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 <footer>
   <div class="env">
     <span>El Arbolito · Pehuén-Có, provincia de Buenos Aires</span>
-    <span>2923 41-5009</span>
+    <span><a class="tel" href="https://wa.me/5492923415009" target="_blank" rel="noopener" title="Escribir por WhatsApp">2923 41-5009</a></span>
   </div>
 </footer>
 
